@@ -1,0 +1,394 @@
+[
+  {
+    "code": "A-1",
+    "ko": "삼창 화로 세트 (대창, 곱창, 막창)",
+    "desc": "Set Hwaro 3 Jeroan Sapi (Usus Besar, Usus Kecil, Abomasum)",
+    "price": "850,000",
+    "image": "assets/510f5a9d555495b0.png",
+    "category": "signature"
+  },
+  {
+    "code": "A-2",
+    "ko": "곱창&대창 야채볶음",
+    "desc": "Tumis Sayuran dengan Usus Kecil & Usus Besar Sapi",
+    "price": "650,000",
+    "image": "assets/4357ce4c1c2b9d25.png",
+    "category": "signature"
+  },
+  {
+    "code": "A-3",
+    "ko": "곱창 야채볶음",
+    "desc": "Tumis Sayuran dengan Usus Kecil Sapi",
+    "price": "450,000",
+    "image": "assets/b32eda1043155d57.png",
+    "category": "signature"
+  },
+  {
+    "code": "A-4",
+    "ko": "염소수육",
+    "desc": "Daging Kambing Rebus",
+    "price": "450,000",
+    "image": "assets/fa6d23ff84e85055.png",
+    "category": "signature"
+  },
+  {
+    "code": "A-5",
+    "ko": "염소전골 (M / L)",
+    "desc": "Hot Pot Kambing M (2–3 org) / L (4–5 org)",
+    "price": "450,000 / 600,000",
+    "image": "assets/58a1d86e79d03c16.png",
+    "category": "signature"
+  },
+  {
+    "code": "A-6",
+    "ko": "오리 주물럭 (M / L)",
+    "desc": "Bebek Marinasi Pedas M (2–3 org) / L (4–5 org)",
+    "price": "350,000 / 600,000",
+    "image": "assets/bd6c6c87f2120351.png",
+    "category": "signature"
+  },
+  {
+    "code": "A-7",
+    "ko": "오리 전골 (M / L)",
+    "desc": "Hot Pot Bebek M (2–3 org) / L (4–5 org)",
+    "price": "350,000 / 600,000",
+    "image": "assets/e342729e65beb6ba.png",
+    "category": "signature"
+  },
+  {
+    "code": "D-1",
+    "ko": "곱창 (200g)",
+    "desc": "Usus Kecil Sapi",
+    "price": "290,000",
+    "image": "assets/e573731d4fb65ce3.jpg",
+    "category": "bbq"
+  },
+  {
+    "code": "D-2",
+    "ko": "대창 (200g)",
+    "desc": "Usus Besar Sapi",
+    "price": "290,000",
+    "image": "assets/42bffb736be6a0aa.jpg",
+    "category": "bbq"
+  },
+  {
+    "code": "D-3",
+    "ko": "막창 (200g)",
+    "desc": "Abomasum Sapi",
+    "price": "290,000",
+    "image": "assets/dcba5f1a3080003e.jpg",
+    "category": "bbq"
+  },
+  {
+    "code": "D-4",
+    "ko": "특양 (200g)",
+    "desc": "Rumen Sapi Bagian Tebal",
+    "price": "290,000",
+    "image": "assets/760a6bc169c3fba3.jpg",
+    "category": "bbq"
+  },
+  {
+    "code": "D-5",
+    "ko": "염통 (200g)",
+    "desc": "Hati Sapi",
+    "price": "290,000",
+    "image": "assets/7100b1392d489b41.jpg",
+    "category": "bbq"
+  },
+  {
+    "code": "D-6",
+    "ko": "도래창 (200g)",
+    "desc": "Dorechang Babi (Jeroan Babi)",
+    "price": "290,000",
+    "image": "assets/9ba04ef045d02745.jpg",
+    "category": "bbq"
+  },
+  {
+    "code": "D-7",
+    "ko": "돼지막창 (200g)",
+    "desc": "Usus Babi",
+    "price": "290,000",
+    "image": "assets/a3ab69e360e0742e.png",
+    "category": "bbq"
+  },
+  {
+    "code": "D-8",
+    "ko": "생갈비/양념갈비",
+    "desc": "Iga Sapi Segar / Iga Sapi Berbumbu",
+    "price": "370,000",
+    "image": "assets/f00df76fee2f119f.jpg",
+    "category": "bbq"
+  },
+  {
+    "code": "D-9",
+    "ko": "소 갈비살",
+    "desc": "Daging Iga Sapi",
+    "price": "370,000",
+    "image": "assets/ba556d0b3e7cbf26.jpg",
+    "category": "bbq"
+  },
+  {
+    "code": "D-10",
+    "ko": "LA 갈비",
+    "desc": "Galbi LA",
+    "price": "280,000",
+    "image": "assets/c2dece848cac0f70.jpg",
+    "category": "bbq"
+  },
+  {
+    "code": "D-11",
+    "ko": "돼지삼형제 (450g)",
+    "desc": "Paket 3 Jenis Daging Babi",
+    "price": "120,000",
+    "image": "assets/3dd5ee172b8aa82c.png",
+    "category": "pork"
+  },
+  {
+    "code": "D-12",
+    "ko": "삼겹살 (150g)",
+    "desc": "Perut Babi",
+    "price": "120,000",
+    "image": "assets/81667a1212d5a24d.jpg",
+    "category": "pork"
+  },
+  {
+    "code": "D-13",
+    "ko": "목살 (150g)",
+    "desc": "Daging Leher/Bahu Babi",
+    "price": "120,000",
+    "image": "assets/b375ad5a39449940.png",
+    "category": "pork"
+  },
+  {
+    "code": "D-14",
+    "ko": "항정살 (150g)",
+    "desc": "Daging Pipi/Leher Babi",
+    "price": "150,000",
+    "image": "assets/545dcd9dc06b6356.jpg",
+    "category": "pork"
+  },
+  {
+    "code": "D-15",
+    "ko": "돼지갈비 (170g)",
+    "desc": "Iga Babi dengan Saus Korea",
+    "price": "120,000",
+    "image": "assets/17878f692ea28262.png",
+    "category": "pork"
+  },
+  {
+    "code": "D-16",
+    "ko": "갈매기살 (150g)",
+    "desc": "Daging Diafragma Babi Panggang",
+    "price": "160,000",
+    "image": "assets/623f193de713f28c.png",
+    "category": "pork"
+  },
+  {
+    "code": "B-1",
+    "ko": "통영바다장어 구이 (소금, 양념) 2마리",
+    "desc": "Anago Panggang (Garam / Bumbu) – 2 Ekor",
+    "price": "350,000",
+    "image": "assets/f349c31a3a0ffe62.jpg",
+    "category": "main"
+  },
+  {
+    "code": "B-2",
+    "ko": "바다장어 튀김",
+    "desc": "Anago Goreng",
+    "price": "180,000",
+    "image": "assets/5b690bd85d2e94eb.png",
+    "category": "main"
+  },
+  {
+    "code": "B-3",
+    "ko": "곱창전골",
+    "desc": "Hot Pot Usus Sapi",
+    "price": "400,000",
+    "image": "assets/fcbed38b2c3e57a0.webp",
+    "category": "main"
+  },
+  {
+    "code": "B-4",
+    "ko": "소 모듬수육",
+    "desc": "Boiled Beef Assortment",
+    "price": "600,000",
+    "image": "assets/c01aa7bf3537ab49.webp",
+    "category": "main"
+  },
+  {
+    "code": "B-5",
+    "ko": "스지 수육",
+    "desc": "Urat Sapi Rebus",
+    "price": "700,000",
+    "image": "assets/02a049de8bdfca87.webp",
+    "category": "main"
+  },
+  {
+    "code": "B-6",
+    "ko": "보쌈 (오리/돼지)",
+    "desc": "Daging Bebek / Babi Rebus ala Korea",
+    "price": "290,000",
+    "image": "assets/47c59161d84488a3.webp",
+    "category": "main"
+  },
+  {
+    "code": "B-7",
+    "ko": "쟁반막국수",
+    "desc": "Makguksu Dingin Pedas",
+    "price": "250,000",
+    "image": "assets/60f854824a72a89b.png",
+    "category": "main"
+  },
+  {
+    "code": "B-8",
+    "ko": "돼지김치전골 (중 / 대)",
+    "desc": "Hot Pot Kimchi dengan Daging Babi (M/L)",
+    "price": "280,000 / 350,000",
+    "image": "assets/5f21d671a743304d.jpg",
+    "category": "main"
+  },
+  {
+    "code": "C-1",
+    "ko": "시마아지 (소 / 중 / 대)",
+    "desc": "Sashimi Shima-Aji (Kecil / Sedang / Besar)",
+    "price": "350,000 / 700,000 / 850,000",
+    "image": "assets/87801382f0930c81.jpeg",
+    "category": "sashimi"
+  },
+  {
+    "code": "C-2",
+    "ko": "농어 (소 / 중 / 대)",
+    "desc": "Sashimi Ikan Kakap Putih (Kecil / Sedang / Besar)",
+    "price": "350,000 / 700,000 / 850,000",
+    "image": "assets/fbf2ac85d0e2b8bd.png",
+    "category": "sashimi"
+  },
+  {
+    "code": "C-3",
+    "ko": "심해사바",
+    "desc": "Sashimi Saba Laut Dalam",
+    "price": "250,000",
+    "image": "assets/a1a46464d07e25ab.jpeg",
+    "category": "sashimi"
+  },
+  {
+    "code": "C-4",
+    "ko": "고등어 구이",
+    "desc": "Ikan Makarel Panggang",
+    "price": "180,000",
+    "image": "assets/6b3b97160b1ea281.jpg",
+    "category": "sashimi"
+  },
+  {
+    "code": "C-5",
+    "ko": "한마리 매운탕",
+    "desc": "Sup Ikan Pedas Korea – 1 Ekor",
+    "price": "280,000",
+    "image": "assets/568f4f19a62178f5.png",
+    "category": "sashimi"
+  },
+  {
+    "code": "C-6",
+    "ko": "갈치 조림",
+    "desc": "Ikan Layur Masak Saus Pedas",
+    "price": "250,000",
+    "image": "assets/1bb22c8cc74f7ba3.png",
+    "category": "sashimi"
+  },
+  {
+    "code": "E-1",
+    "ko": "숯불 소불고기 (400g)",
+    "desc": "Bulgogi Sapi Panggang Arang",
+    "price": "250,000",
+    "image": "assets/6da169d816c98276.jpg",
+    "category": "sides"
+  },
+  {
+    "code": "E-2",
+    "ko": "숯불 돼지불고기 (400g)",
+    "desc": "Bulgogi Babi Panggang Arang",
+    "price": "250,000",
+    "image": "assets/25a934412c581f1a.png",
+    "category": "sides"
+  },
+  {
+    "code": "E-3",
+    "ko": "돼지껍데기 (한국산)",
+    "desc": "Kulit Babi Panggang (Produk Korea)",
+    "price": "150,000",
+    "image": "assets/272d9ce67c19c831.png",
+    "category": "sides"
+  },
+  {
+    "code": "E-4",
+    "ko": "무뼈 닭발",
+    "desc": "Boneless Spicy Chicken Feet",
+    "price": "180,000",
+    "image": "assets/7c31684a93d3ca6f.png",
+    "category": "sides"
+  },
+  {
+    "code": "E-5",
+    "ko": "숯불 닭갈비 (600g)",
+    "desc": "Dakgalbi Ayam Bakar Arang",
+    "price": "180,000",
+    "image": "assets/fd3e79ab8e602e61.png",
+    "category": "sides"
+  },
+  {
+    "code": "E-6",
+    "ko": "철판 닭갈비 (600g)",
+    "desc": "Dakgalbi Ayam Plat Besi",
+    "price": "220,000",
+    "image": "assets/adecb66d9d1f702b.png",
+    "category": "sides"
+  },
+  {
+    "code": "E-7",
+    "ko": "잡채",
+    "desc": "Japchae (Manis/Pedas)",
+    "price": "180,000",
+    "image": "assets/46b5a0a376de1194.jpg",
+    "category": "sides"
+  },
+  {
+    "code": "E-8",
+    "ko": "떡볶이",
+    "desc": "Tteokbokki – Kue Beras Pedas",
+    "price": "180,000",
+    "image": "assets/0a8767c9961d8c87.webp",
+    "category": "sides"
+  },
+  {
+    "code": "E-9",
+    "ko": "김치 / 된장 술밥",
+    "desc": "Nasi Kuah Kimchi / Doenjang",
+    "price": "80,000",
+    "image": "assets/1af94a962f4aa3dc.png",
+    "category": "sides"
+  },
+  {
+    "code": "E-10",
+    "ko": "콘치즈",
+    "desc": "Jagung Keju",
+    "price": "80,000",
+    "image": "assets/bb150e3cd6543a67.png",
+    "category": "sides"
+  },
+  {
+    "code": "E-11",
+    "ko": "볶음밥",
+    "desc": "Nasi Goreng Korea",
+    "price": "50,000",
+    "image": "assets/7762801077e4621c.jpg",
+    "category": "sides"
+  },
+  {
+    "code": "E-12",
+    "ko": "라면",
+    "desc": "Mi Ramen Korea",
+    "price": "60,000",
+    "image": "assets/a4f4dfe82d89d024.png",
+    "category": "sides"
+  }
+]
