@@ -60,6 +60,7 @@ function chooseLanguage(key){
  gate.hidden=true;document.documentElement.classList.remove('language-pending');
  for(const el of document.body.children)el.inert=false;
  change.focus();
+ scheduleCategoryUpdate();
 }
 gate.querySelectorAll('button').forEach(button=>button.addEventListener('click',()=>chooseLanguage(button.dataset.language)));
 gate.addEventListener('keydown',e=>{
@@ -79,7 +80,7 @@ let activeSection = null;
 let scrollFrame = null;
 function updateActiveCategory() {
  scrollFrame = null;
- const threshold = categoryBar.offsetHeight + 32;
+ const threshold = Math.max(categoryBar.getBoundingClientRect().bottom, categoryBar.offsetHeight) + Math.min(160, window.innerHeight * 0.2);
  let selected = rootSections[0];
  for (const section of rootSections) {
   if (section.getBoundingClientRect().top <= threshold) selected = section;
@@ -88,7 +89,7 @@ function updateActiveCategory() {
  if (selected.id === activeSection) return;
  activeSection = selected.id;
  categoryLinks.forEach(link => {
-  const active = link.hash === '#' + activeSection;
+  const active = link.getAttribute('href') === '#' + activeSection;
   link.classList.toggle('is-active', active);
   if (active) link.setAttribute('aria-current', 'location');
   else link.removeAttribute('aria-current');
@@ -107,5 +108,7 @@ function scheduleCategoryUpdate() {
 window.addEventListener('scroll', scheduleCategoryUpdate, {passive: true});
 window.addEventListener('resize', scheduleCategoryUpdate);
 window.addEventListener('load', scheduleCategoryUpdate);
-new ResizeObserver(scheduleCategoryUpdate).observe(document.querySelector('main'));
+if ('ResizeObserver' in window) new ResizeObserver(scheduleCategoryUpdate).observe(document.querySelector('main'));
+window.addEventListener('pageshow', scheduleCategoryUpdate);
+window.addEventListener('hashchange', scheduleCategoryUpdate);
 updateActiveCategory();
