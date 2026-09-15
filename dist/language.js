@@ -71,3 +71,41 @@ gate.addEventListener('keydown',e=>{
 });
 change.addEventListener('click',openLanguages);
 openLanguages();
+
+// Follow the section below the sticky category bar without moving the page.
+const categoryBar = document.querySelector('.categories');
+const categoryLinks = [...categoryBar.querySelectorAll('a')];
+let activeSection = null;
+let scrollFrame = null;
+function updateActiveCategory() {
+ scrollFrame = null;
+ const threshold = categoryBar.offsetHeight + 32;
+ let selected = rootSections[0];
+ for (const section of rootSections) {
+  if (section.getBoundingClientRect().top <= threshold) selected = section;
+  else break;
+ }
+ if (selected.id === activeSection) return;
+ activeSection = selected.id;
+ categoryLinks.forEach(link => {
+  const active = link.hash === '#' + activeSection;
+  link.classList.toggle('is-active', active);
+  if (active) link.setAttribute('aria-current', 'location');
+  else link.removeAttribute('aria-current');
+  if (active) {
+   const linkRect = link.getBoundingClientRect();
+   const barRect = categoryBar.getBoundingClientRect();
+   if (linkRect.left < barRect.left + 16 || linkRect.right > barRect.right - 16) {
+    categoryBar.scrollTo({left: link.offsetLeft - (categoryBar.clientWidth - link.offsetWidth) / 2, behavior: 'auto'});
+   }
+  }
+ });
+}
+function scheduleCategoryUpdate() {
+ if (scrollFrame === null) scrollFrame = requestAnimationFrame(updateActiveCategory);
+}
+window.addEventListener('scroll', scheduleCategoryUpdate, {passive: true});
+window.addEventListener('resize', scheduleCategoryUpdate);
+window.addEventListener('load', scheduleCategoryUpdate);
+new ResizeObserver(scheduleCategoryUpdate).observe(document.querySelector('main'));
+updateActiveCategory();
